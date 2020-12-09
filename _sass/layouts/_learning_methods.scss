@@ -8,10 +8,12 @@ bold {
 
 .h2lm {
     text-align: center;
+    font-size: 25px;
 }
 
 .h3lm {
     color: #FFFFFF;
+    font-weight: 300;
 }
 
 .boxp {
@@ -31,5 +33,7 @@ bold {
     padding: 5px;
     margin-right: 175px;
     margin-left: 10px;
+    padding-top: -20px;
+    padding-bottom: -20px;
     border-radius: 5px;
 }
