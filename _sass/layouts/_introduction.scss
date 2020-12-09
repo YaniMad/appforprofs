@@ -1,0 +1,16 @@
+.background {
+    position: relative;
+    background-image: url("/assets/iconographie/illustrations/vague.svg");
+    height: 460px;
+    width: 100vw;
+
+    h2 {
+        position: absolute;
+    }
+}
+.pc {
+    position: absolute;
+    top: 80px;
+    height: 300px;
+    width: 100vw;
+}
