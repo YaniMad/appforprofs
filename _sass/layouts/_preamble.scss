@@ -1,3 +1,17 @@
 .preambule{
     background-color: #F0F0F0;
 }
+
+.h2p {
+    margin-left: 25px;
+    font-size: 25px;
+}
+
+.boxi {
+    display: flex; 
+    flex-wrap: wrap;
+    margin: 10px 25px 25px 25px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 20px;
+}

@@ -1,8 +1,9 @@
 .background {
     position: relative;
     background-image: url("/assets/iconographie/illustrations/vague.svg");
-    height: 460px;
-    width: 100vw;
+    height: 470px;
+    width: 100%;
+    background-size: cover;
 
     h2 {
         position: absolute;

@@ -8,17 +8,19 @@ bold {
 
 .h2lm {
     text-align: center;
+    font-size: 25px;
 }
 
 .h3lm {
     color: #FFFFFF;
+    font-weight: 300;
 }
 
 .boxp {
     background-color: #FFFFFF;
     display: flex; 
     flex-wrap: wrap;
-    margin: 15px;
+    margin: 25px;
     padding: 10px;
     border-radius: 15px;
     box-shadow: 4px 4px 4px #E8E8E8;
@@ -31,5 +33,7 @@ bold {
     padding: 5px;
     margin-right: 175px;
     margin-left: 10px;
+    padding-top: -20px;
+    padding-bottom: -20px;
     border-radius: 5px;
 }
