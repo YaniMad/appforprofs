@@ -4,9 +4,9 @@
   background-color: $first-theme-color;
   h2 {
     text-align: center;
-    padding: 33px 46px 52px 46px;
+    padding: 33px 46px 33px 46px;
     font-size: $sous-titre-size;
-    font-family: $sous-titre-font; 
+    font-family: $sous-titre-font;
   }
   .container-btn {
     display: flex;
@@ -58,12 +58,10 @@
       }
       p {
         text-align: left;
-        width: 162px;
-        margin-right: 100px;
+        width: 250px;
         padding-left: 10px;
         font-size: 18px;
         font-family: $paragraphe-font;
-
       }
     }
   }
