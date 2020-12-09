@@ -5,6 +5,8 @@
   h2 {
     text-align: center;
     padding: 33px 46px 52px 46px;
+    font-size: $sous-titre-size;
+    font-family: $sous-titre-font; 
   }
   .container-btn {
     display: flex;
@@ -55,7 +57,13 @@
         border-radius: 5px;
       }
       p {
-        margin-right: 200px;
+        text-align: left;
+        width: 162px;
+        margin-right: 100px;
+        padding-left: 10px;
+        font-size: 18px;
+        font-family: $paragraphe-font;
+
       }
     }
   }
