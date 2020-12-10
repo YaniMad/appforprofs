@@ -1,38 +1,31 @@
-//librairies//
+// abstracts //
+@import "abstracts/variables";
 
-
-
-
-// abstracts // 
-@import 'abstracts/variables'; 
-
-// base // 
-@import 'base/reset';
-@import 'base/typography';
+// base //
+@import "base/reset";
+@import "base/typography";
 
 // components //
-@import 'components/buttons';
-@import 'components/cookies';
-@import 'components/form';
-@import 'components/pop_up_softwares';
-@import 'components/up_arrow';
-@import 'components/sliders';
+@import "components/buttons";
+@import "components/cookies";
+@import "components/form";
+@import "components/pop_up_softwares";
+@import "components/up_arrow";
+@import "components/sliders";
 
 // layouts //
-@import 'layouts/header'; 
-@import 'layouts/introduction';
-@import 'layouts/preamble'; 
-@import 'layouts/navigation_bar'; 
-@import 'layouts/learning_methods'; 
-@import 'layouts/adapt_your_courses'; 
-@import 'layouts/animate_your_courses';
-@import 'layouts/regulate_exchanges';
-@import 'layouts/visiokit';  
-@import 'layouts/softwares'; 
-@import 'layouts/comments'; 
-@import 'layouts/footer'; 
+@import "layouts/header";
+@import "layouts/introduction";
+@import "layouts/preamble";
+@import "layouts/navigation_bar";
+@import "layouts/learning_methods";
+@import "layouts/adapt_your_courses";
+@import "layouts/animate_your_courses";
+@import "layouts/regulate_exchanges";
+@import "layouts/visiokit";
+@import "layouts/softwares";
+@import "layouts/comments";
+@import "layouts/footer";
 
 // vendors //
-@import 'vendors/vendors'; 
-
-
+@import "vendors/vendors";

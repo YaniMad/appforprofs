@@ -1,17 +1,17 @@
-.preambule{
-    background-color: #F0F0F0;
+.preambule {
+  background-color: $first-theme-color;
+  padding: 20px 39px 15px 39px;
 }
 
-.h2p {
-    margin-left: 25px;
-    font-size: 25px;
+h2 {
+
+  font-size: $sous-titre-size; 
+  font-family: $sous-titre-font; 
+  margin-bottom: 12px;
 }
 
-.boxi {
-    display: flex; 
-    flex-wrap: wrap;
-    margin: 10px 25px 25px 25px;
-    text-align: justify;
-    text-justify: inter-word;
-    line-height: 20px;
+p{
+    font-family:$paragraphe-font; 
+    font-size:$paragraphe-size; 
+    line-height: 24px;
 }
