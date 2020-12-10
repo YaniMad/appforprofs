@@ -1,5 +1,6 @@
 .learningmethods {
     background-color: #FCFCFC;
+    margin-top: 30px; 
 }
 
 bold {
@@ -8,12 +9,15 @@ bold {
 
 .h2lm {
     text-align: center;
-    font-size: 25px;
+    font-family:$sous-titre-size;
+    font-family:$titre-font
+    
 }
 
 .h3lm {
     color: #FFFFFF;
-    font-weight: 300;
+    font-family:$sous-titre-size;
+    font-family: $sous-titre-font;
 }
 
 .boxp {
@@ -31,7 +35,7 @@ bold {
     display: flex; 
     flex-wrap: wrap;
     padding: 5px;
-    margin-right: 175px;
+    margin-right: 135px;
     margin-left: 10px;
     padding-top: -20px;
     padding-bottom: -20px;

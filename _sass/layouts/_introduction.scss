@@ -7,10 +7,12 @@
     width: 100%;
     background-size: cover;
 
-    h2 {
-      font-size: 20px;
-      font-family: "Montserrat", sans-serif;
+    .logo{
+      height: 22px;
+      widows: 22px;
+      object-fit: cover;
     }
+
     .pc {
       position: absolute;
       margin-left: 92px;
