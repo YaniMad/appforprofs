@@ -38,27 +38,15 @@
       line-height: 25px;
     }
 
-    .arrow{
+    .arrow {
         margin-top: 5px;
-      height: 20px;
-      widows: 30px;
-      object-fit: cover;
-      animation-delay: 2s;
-      animation: bounceAnim 2s infinite;
-    }
-    @keyframes bounceAnim {
-        0% {
-            bottom: 14%;
-        }
-        40% {
-            bottom: 10%;
-        }
-        60% {
-            bottom: 10%;
-        }
-        100% {
-            bottom: 14%;
-        }
-    }
+        height: 25px;
+        animation: bounce 2s ease infinite alternate;
+}
+
+@keyframes bounce{
+  from {top: 106px;}
+  to   {top: 86px;}
+}
 }
 }
