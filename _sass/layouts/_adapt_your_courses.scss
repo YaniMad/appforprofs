@@ -9,13 +9,16 @@
   }
 }
 
-.titre_adapt {
-    padding: 20px;
-  text-align: center;
-  b {
-    font-family: $sous-titre-font;
+.titre_adapt{
+    text-align: center;
+    font-family: $titre-font;
     font-size: $sous-titre-size;
-  }
+}
+
+.explication{
+    font-family: $paragraphe-font;
+    font-size: $paragraphe-size;
+    margin: 20px;
 }
 
 .taille_adapt {

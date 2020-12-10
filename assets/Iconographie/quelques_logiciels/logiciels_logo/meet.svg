@@ -1,1 +1,27 @@
-<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 429 429"><defs><style>.cls-1{fill:#fff;}.cls-2{fill:#1e88e5;}.cls-3{fill:#4caf50;}.cls-4{fill:#fbc02d;}.cls-5{fill:#1565c0;}.cls-6{fill:#e53935;}.cls-7{fill:#2e7d32;}</style></defs><title>meet</title><path class="cls-1" d="M359.44,429H69.49A69.49,69.49,0,0,1,0,359.51v-290A69.49,69.49,0,0,1,69.49,0h290A69.49,69.49,0,0,1,429,69.49v290A69.55,69.55,0,0,1,359.44,429Z" transform="translate(0 0)"/><rect class="cls-1" x="115.91" y="151.36" width="126.14" height="126.14"/><polygon class="cls-2" points="44.94 159.29 44.94 269.64 84.39 277.57 123.77 269.64 123.77 159.29 84.39 151.35 44.94 159.29"/><path class="cls-3" d="M313,214.46V324.88a23.68,23.68,0,0,1-23.66,23.66H123.77l-7.86-39.45,7.86-39.45H234.19V214.46l39.45-7.86Z" transform="translate(0 0)"/><path class="cls-4" d="M313,104V214.46H234.19V159.29H123.77l-7.86-39.45,7.86-39.45H289.36A23.67,23.67,0,0,1,313,104Z" transform="translate(0 0)"/><path class="cls-5" d="M123.77,269.64v78.83H68.6a23.68,23.68,0,0,1-23.66-23.66V269.64Z" transform="translate(0 0)"/><polygon class="cls-6" points="123.77 80.39 123.77 159.29 44.94 159.29 123.77 80.39"/><polygon class="cls-7" points="320.88 214.46 313.02 281.06 234.19 214.46 313.02 147.87 320.88 214.46"/><path class="cls-3" d="M384,104.93V324a7.9,7.9,0,0,1-12.83,6.16l-58.14-49V147.87l58.14-49A7.86,7.86,0,0,1,384,104.93Z" transform="translate(0 0)"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 429 429" style="enable-background:new 0 0 429 429;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F2F2F2;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#1E88E5;}
+	.st3{fill:#4CAF50;}
+	.st4{fill:#FBC02D;}
+	.st5{fill:#1565C0;}
+	.st6{fill:#E53935;}
+	.st7{fill:#2E7D32;}
+</style>
+<title>meet</title>
+<path class="st0" d="M359.4,429h-290C31.1,429,0,397.9,0,359.5v-290C0,31.1,31.1,0,69.5,0c0,0,0,0,0,0h290
+	C397.9,0,429,31.1,429,69.5c0,0,0,0,0,0v290C429,397.9,397.8,429,359.4,429z"/>
+<rect x="115.9" y="151.4" class="st1" width="126.1" height="126.1"/>
+<polygon class="st2" points="44.9,159.3 44.9,269.6 84.4,277.6 123.8,269.6 123.8,159.3 84.4,151.4 "/>
+<path class="st3" d="M313,214.5v110.4c0,13.1-10.6,23.6-23.7,23.7H123.8l-7.9-39.5l7.9-39.5h110.4v-55.2l39.5-7.9L313,214.5z"/>
+<path class="st4" d="M313,104v110.5h-78.8v-55.2H123.8l-7.9-39.4l7.9-39.4h165.6C302.4,80.4,313,91,313,104z"/>
+<path class="st5" d="M123.8,269.6v78.8H68.6c-13.1,0-23.6-10.6-23.7-23.7v-55.2H123.8z"/>
+<polygon class="st6" points="123.8,80.4 123.8,159.3 44.9,159.3 "/>
+<polygon class="st7" points="320.9,214.5 313,281.1 234.2,214.5 313,147.9 "/>
+<path class="st3" d="M384,104.9V324c0,4.4-3.5,7.9-7.9,7.9c-1.8,0-3.5-0.6-4.9-1.7l-58.1-49V147.9l58.1-49c3.4-2.7,8.3-2.2,11.1,1.1
+	C383.4,101.4,384,103.1,384,104.9z"/>
+</svg>

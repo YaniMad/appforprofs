@@ -11,10 +11,39 @@
 
 .position{
     text-align: center;
+    text-align: justify;
+    font-family: $paragraphe-font;
+    font-size: $paragraphe-size;
+    line-height: 24px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.positionfin {
+    text-align: center;
+    text-align: justify;
+    font-family: $paragraphe-font;
+    font-size: $paragraphe-size;
+    line-height: 24px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+
 }
 
 .positiontitre{
     text-align:center;
+    font-family: $titre-font;
+    font-size: $sous-titre-size;
+    line-height: 24px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+
 }
 
 bold{
