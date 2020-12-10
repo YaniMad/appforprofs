@@ -37,13 +37,11 @@
       font-family: $paragraphe-font;
       line-height: 25px;
     }
-    .arrow {
-        bottom: 7%;
-        left: 50%;
-        height: 2%;
-        width: 2%;
-        transform: translate(-50%);
-        animation: bounceAnim 2s infinite;
+
+    .fleche{
+      height: 30px;
+      widows: 30px;
+      object-fit: cover;
     }
 }
 }
