@@ -2,12 +2,12 @@
   .introduction-background {
     position: relative;
     background-image: url("/assets/iconographie/illustrations/vague.svg");
-    height: 470px;
+    height: 520px;
     padding: 20px;
     width: 100%;
     background-size: cover;
 
-    .logo{
+    .logo {
       height: 22px;
       widows: 22px;
       object-fit: cover;
@@ -16,12 +16,12 @@
     .pc {
       position: absolute;
       margin-left: 92px;
-      top: 80px;
+      top: 100px;
       right: 43px;
       height: 300px;
-      width: 286px;
+      width: 300px;
     }
-  }
+}
 
   .introduction-contenu {
     padding: 15px 39px 23px 39px;
@@ -37,5 +37,11 @@
       font-family: $paragraphe-font;
       line-height: 25px;
     }
-  }
+
+    .fleche{
+      height: 30px;
+      widows: 30px;
+      object-fit: cover;
+    }
+}
 }
