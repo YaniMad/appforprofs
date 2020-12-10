@@ -2,10 +2,15 @@
     background-color: #F0F0F0;
 }
 
+.titre_adapt{
+    text-align: center;
+}
+
 .taille_adapt{
     height: 50px;
     widows: 50px;
     object-fit: cover;
+    margin-left: 14px;
 }
 
 .taille_symbole{
@@ -16,10 +21,21 @@
 
 .consigne{
     text-align: center;
+    font-family:$sous-titre-font; 
+    font-size:$sous-titre-size;
 }
 
 .text_box{
     background-color: white;
     padding: 15px;
     border-radius: 15px;
+    font-family:$paragraphe-font; 
+    font-size:$paragraphe-size; 
+    margin: 15px;
+}
+
+.text_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
