@@ -1,6 +1,6 @@
 var slider = tns({
     container: '.slider-tips',
-    items: 1,
+    items: 1.3,
     center: true,
     loop: true,
     swipeAngle: false,

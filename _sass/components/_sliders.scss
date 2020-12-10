@@ -19,10 +19,11 @@
         p {
             margin-top: 10px;
             text-align: center;
-            padding-right: 15px;
-            padding-left: 15px;
+            padding-right: 35px;
+            padding-left: 35px;
             font-family: $paragraphe-font;
             font-size: $paragraphe-size;
+            line-height: 24px;
         }
 
 
@@ -42,8 +43,7 @@
     width: 200px;
     border-radius: 20px;
     background-color: white;
-    box-shadow: 1px 1px 12px #555
-
+    box-shadow: $box-shadow;
     
 
 }
