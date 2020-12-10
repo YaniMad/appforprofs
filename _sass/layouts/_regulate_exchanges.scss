@@ -11,14 +11,16 @@
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    font-size: $paragraphe-size;
+    font-family: $paragraphe-font;
 }
 
 
 .fond-exchanges h2 { 
     
     text-align: center;
-    font-family:$sous-titre-size;
-    font-family:$titre-font;
+    font-family:$sous-titre-font;
+    font-size:$sous-titre-size;
     padding-top: 30px;
 
 }
