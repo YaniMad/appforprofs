@@ -1,10 +1,13 @@
 .softwares {
+  position: relative;
   background-color: $first-theme-color;
+  height: 736px;
   h2 {
     text-align: center;
-    padding: 33px 46px 33px 46px;
+    padding: 33px 44px;
     font-size: $sous-titre-size;
     font-family: $sous-titre-font;
+    line-height: 24px;
   }
   .container-btn {
     display: flex;
@@ -63,15 +66,15 @@
       }
     }
     .pop-up {
-      text-align: center;
-      height: 569px;
-      width: 342px;
+      z-index: 999;
+      position: absolute;
+      height: 579px;
+      width: 352px;
       background-color: #fff;
       border-radius: 15px;
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      flex-direction: column;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -44%);
 
       .logo-pop-up {
         height: 41px;
@@ -79,21 +82,68 @@
         margin-bottom: 15px;
       }
       .pop-up-contenu {
-        margin-top: 62px;
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
         h3 {
           font-family: $paragraphe-font;
           font-size: $sous-titre-size;
           margin-bottom: 20px;
         }
-        p {
+        .pop-up-paragraphe {
           text-align: center;
           font-size: $paragraphe-size;
           font-family: $sous-sous-titre-font;
           line-height: 24px;
+          margin-bottom: 24px;
           height: 72px;
           width: 304px;
         }
+      }
+      .list-review {
+        ul {
+          display: flex;
+          flex-direction: column;
+        }
+        li {
+          display: flex;
+          align-items: center;
+          height: 45px;
+          .pop-up-icon {
+            height: 25px;
+            width: 25px;
+            margin-left: 25px;
+          }
+          p {
+            font-size: $paragraphe-size;
+            font-family: $sous-sous-titre-font;
+            padding-left: 11px;
+          }
+        }
+        .download {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          width: 100%;
+          margin-top: 12px;
+          .download-icon {
+            height: 42px;
+            width: 119px;
+          }
+        }
+      }
+      .pop-up-exit{ 
+      /*   position: absolute; */
+        width: 34px;
+        height: 39px;
+        background-color: $bouton-plus;
+        border-radius: 10px;
+        margin-left: 300px;
+        margin-top: 10px;
+        
       }
     }
   }
