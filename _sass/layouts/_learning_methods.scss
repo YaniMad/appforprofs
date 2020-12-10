@@ -1,5 +1,5 @@
 .learning_methods {
-  background-color: #fcfcfc;
+  background-color: #E8E8E8;
   h2 {
     text-align: center;
     padding: 27px 30px;
@@ -13,13 +13,14 @@
     align-items: center;
   }
   .bulle {
+    background-color: white;
     position: relative;
     margin-bottom: 36px;
     padding: 36px 11px 0 11px;
     width: 342px;
     height: 268px;
     box-shadow: 0 10px 12px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    border-radius: 15px;
     h3 {
       position: absolute;
       top: 0;
@@ -41,13 +42,14 @@
     }
   }
   .bulle-two {
+    background-color: white;
     position: relative;
     margin-bottom: 36px;
     padding: 36px 11px 0 11px;
     width: 342px;
     height: 292px;
     box-shadow: 0 10px 12px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    border-radius: 15px;
     h3 {
       position: absolute;
       top: 0;

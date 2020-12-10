@@ -8,12 +8,15 @@
 .avant_section{
     padding-right: 20px;
     padding-left: 20px;
+    font-size: $paragraphe-size;
+    font-family: $paragraphe-font;
+    line-height: 24px;
 }
 
 .align_animate{
     text-align: center;
-    font-family:$sous-titre-size;
-    font-family:$titre-font
+    font-size: $sous-titre-size;
+    font-family: $titre-font
 }
 
 .titre_section{
@@ -28,8 +31,8 @@
 
 .titre_color{
     color: #FFFFFF;
-    font-family:$sous-titre-size;
-    font-family: $sous-titre-font;
+    font-size: $paragraphe-size;
+    font-family: $sous-sous-titre-font;
 }
 
 .contenu_section{
@@ -40,4 +43,10 @@
     padding: 10px;
     border-radius: 15px;
     box-shadow: 4px 4px 4px  #d8d8d8;
+}
+
+.paragraphe{
+    font-size: $paragraphe-size;
+    font-family: $paragraphe-font;
+    line-height: 24px;
 }
