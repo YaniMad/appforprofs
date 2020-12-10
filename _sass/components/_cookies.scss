@@ -29,7 +29,7 @@ height: 100px;
 
 .refuser{
       background-color: #05668D;
-      border-radius: 10px;
+      border-radius: 15px 0px 0px 15px;
       text-align: center;
       p{
             font-size: $paragraphe-size;
@@ -41,7 +41,6 @@ height: 100px;
 
 .parametrer{
       background-color: #05668D;
-      border-radius: 10px;
       text-align: center;
       p{
             font-size: $paragraphe-size;
@@ -53,7 +52,7 @@ height: 100px;
 
 .accepter{
       background-color: #00B686;
-      border-radius: 10px;
+      border-radius: 0px 15px 15px 0px;
       text-align: center;
       p{
             font-size: $paragraphe-size;
