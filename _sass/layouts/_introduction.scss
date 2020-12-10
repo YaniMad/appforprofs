@@ -21,7 +21,7 @@
       height: 300px;
       width: 300px;
     }
-}
+  }
 
   .introduction-contenu {
     padding: 15px 39px 23px 39px;
@@ -39,16 +39,34 @@
     }
 
     .arrow {
-        margin-top: 680px;
-        margin-right: 400px;
-        height: 25px;
-        animation: bounce 1.75s ease infinite alternate;
-        position: absolute; 
-}
+      align-self: flex-end;
+      animation-iteration-count: infinite;
+      animation-duration: 2s;
+      height: 25px;
+      margin: 0 auto 0 auto;
+      margin-top: 10px;
+      transform-origin: bottom;
+      width: 200px;
+    }
 
-@keyframes bounce{
-  from {top: 20px;}
-  to   {top: 30px;}
-}
-}
+    .bounce {
+      animation-name: bounce;
+      animation-timing-function: ease;
+    }
+
+    @keyframes bounce {
+      0% {
+        transform: translateY(0);
+      }
+      30% {
+        transform: translateY(-10px);
+      }
+      50% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+  }
 }
