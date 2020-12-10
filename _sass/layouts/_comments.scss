@@ -4,6 +4,8 @@
 
 .bravo{
     text-align: center;
+    font-family: $titre-font;
+    font-size: $titre-size;
 }
 
 .trophee{
@@ -15,15 +17,7 @@
 
 .text_comments{
     text-align: center;
-
-    h1{
-        font-family: $titre-font;
-        font-size: $titre-size;
+    font-family:$paragraphe-font; 
+    font-size:$paragraphe-size;
+    margin: 15px;
     }
-    
-    p{
-        font-family:$paragraphe-font; 
-        font-size:$paragraphe-size;
-        margin: 15px;
-    }
-}
