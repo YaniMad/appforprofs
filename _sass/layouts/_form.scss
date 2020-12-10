@@ -1,0 +1,55 @@
+.h2fo {
+    padding: 10px;
+    font-family: $sous-titre-font;
+    font-size: $sous-titre-size;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+input[type=text], select {
+    font-family: $paragraphe-font;
+    font-size: $paragraphe-size;
+    width: 375px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    font-family: $paragraphe-font;
+    font-size: $paragraphe-size;
+    width: 25%;
+    padding: 10px;
+    background-color: #00b686;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    box-shadow: $box-shadow;
+    cursor: pointer;
+}
+
+textarea {
+    font-family: $paragraphe-font;
+    font-size: $paragraphe-size;
+    padding: 12px 20px;
+    margin: 8px 0;
+    width: 375px;
+    height: 400px;
+    border: none;
+    border-radius: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #05668D;
+    border-radius: 15px;
+}
