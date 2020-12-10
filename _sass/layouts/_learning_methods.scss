@@ -1,8 +1,13 @@
-.learningmethods {
-    background-color: #FCFCFC;
-    margin-top: 30px; 
+.learning_methods {
+  background-color: #fcfcfc;
+  h2 {
+    text-align: center;
+    padding: 17px 30px;
+    font-size: $sous-titre-size;
+    font-family: $titre-font;
+  }
 }
-
+/* 
 bold {
     font-weight: bold;
 }
@@ -40,4 +45,4 @@ bold {
     padding-top: -20px;
     padding-bottom: -20px;
     border-radius: 5px;
-}
+} */
