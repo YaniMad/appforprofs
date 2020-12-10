@@ -3,22 +3,30 @@
 }
 
 .kiticone {
-    height:25px;
-    widows:25px;
+    height:30px;
+    widows:30px;
     object-fit: cover;
+    margin-right: 10px;
 }
 
 .position{
     text-align: center;
 }
 
+.positiontitre{
+    text-align:center;
+}
+
 bold{
     font-weight: bold;
 }
 
-.posicone{
-    display:flex;
-    justify-content: space-around;
-    justify-content: flex-end;
-    flex-direction: column;
+
+.mefsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    margin-right: 12px;
+
 }
