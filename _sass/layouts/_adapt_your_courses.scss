@@ -4,6 +4,13 @@
 
 .titre_adapt{
     text-align: center;
+    font-family: $titre-font;
+    font-size: $sous-titre-size;
+}
+
+.explication{
+    font-family: $paragraphe-font;
+    font-size: $paragraphe-size;
 }
 
 .taille_adapt{
