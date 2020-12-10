@@ -1,11 +1,11 @@
 var slider = tns({
     container: '.slider-tips',
-    items: 2,
+    items: 1,
     center: true,
     loop: true,
     swipeAngle: false,
     mouseDrag: true,
-    speed: 400,
+    speed: 350,
     nav: false,
     controls: false
 });

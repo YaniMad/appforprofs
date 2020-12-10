@@ -1,0 +1,36 @@
+.fond-exchanges {
+    width: 414px;
+    height: 100%;
+    background-color: #F0F0F0;
+
+   
+
+}
+
+.fond-exchanges p {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: $paragraphe-size;
+    font-family: $paragraphe-font;
+}
+
+
+.fond-exchanges h2 { 
+    
+    text-align: center;
+    font-family:$sous-titre-font;
+    font-size:$sous-titre-size;
+    padding-top: 30px;
+
+}
+
+.fond-exchanges h3 {
+        
+    text-align: center;
+    font-size: $sous-sous-titre-size;
+    font-family: $sous-sous-titre-font;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
