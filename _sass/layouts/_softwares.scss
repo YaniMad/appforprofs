@@ -1,12 +1,68 @@
-.container-softwares {
+@import "abstracts/variables";
+
+.softwares {
+  background-color: $first-theme-color;
   h2 {
     text-align: center;
-    margin: 20px; 
+    padding: 33px 46px 33px 46px;
+    font-size: $sous-titre-size;
+    font-family: $sous-titre-font;
   }
-  .container-btn{
-    display: flex; 
-    justify-content: center; 
+  .container-btn {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    flex-direction: column; 
+    flex-direction: column;
+    width: 100%;
+
+    .btn {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      border: none;
+      outline: none;
+      height: 54px;
+      width: 342px;
+      border-radius: 12px;
+      margin-bottom: 39px;
+      cursor: pointer;
+      background: whitesmoke;
+      box-shadow: $box-shadow;
+      transition: transform 0.2s ease;
+      &:active {
+        transform: translateY(2px);
+      }
+
+      .logo {
+        height: 41px;
+        width: 41px;
+      }
+      .background-plus {
+        position: relative;
+        width: 28px;
+        height: 32px;
+        padding: 6px;
+        border-radius: 8px;
+        background-color: $bouton-plus;
+        box-shadow: $box-shadow;
+      }
+      .plus {
+        position: absolute;
+        object-fit: cover;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 14px;
+        height: 14px;
+        border-radius: 5px;
+      }
+      p {
+        text-align: left;
+        width: 250px;
+        padding-left: 10px;
+        font-size: 18px;
+        font-family: $paragraphe-font;
+      }
+    }
   }
 }

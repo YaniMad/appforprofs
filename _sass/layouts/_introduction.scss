@@ -1,17 +1,39 @@
-.background {
+.introduction {
+  .introduction-background {
     position: relative;
     background-image: url("/assets/iconographie/illustrations/vague.svg");
     height: 470px;
+    padding: 20px;
     width: 100%;
     background-size: cover;
 
     h2 {
-        position: absolute;
+      font-size: 20px;
+      font-family: "Montserrat", sans-serif;
     }
-}
-.pc {
-    position: absolute;
-    top: 80px;
-    height: 300px;
-    width: 100vw;
+    .pc {
+      position: absolute;
+      margin-left: 92px;
+      top: 80px;
+      right: 43px;
+      height: 300px;
+      width: 286px;
+    }
+  }
+
+  .introduction-contenu {
+    padding: 15px 39px 23px 39px;
+    h1 {
+      text-align: center;
+      font-size: $titre-size;
+      font-family: "Roboto", sans-serif;
+      margin-bottom: 18px;
+    }
+    p {
+      text-align: center;
+      font-size: $paragraphe-size;
+      font-family: $paragraphe-font;
+      line-height: 25px;
+    }
+  }
 }
