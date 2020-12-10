@@ -39,14 +39,16 @@
     }
 
     .arrow {
-        margin-top: 5px;
+        margin-top: 680px;
+        margin-right: 400px;
         height: 25px;
-        animation: bounce 2s ease infinite alternate;
+        animation: bounce 1.75s ease infinite alternate;
+        position: absolute; 
 }
 
 @keyframes bounce{
-  from {top: 106px;}
-  to   {top: 86px;}
+  from {top: 20px;}
+  to   {top: 30px;}
 }
 }
 }
