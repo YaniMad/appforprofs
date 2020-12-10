@@ -1,5 +1,12 @@
-.adapt{
-    background-color: #F0F0F0;
+.adapt {
+  background-color: #f0f0f0;
+
+  p {
+    font-family: $paragraphe-font;
+    font-size: $paragraphe-size;
+    padding: 20px;
+
+  }
 }
 
 .titre_adapt{
@@ -18,23 +25,23 @@
     padding-right: 20px;
 }
 
-.taille_adapt{
-    height: 50px;
-    widows: 50px;
-    object-fit: cover;
-    margin-left: 14px;
+.taille_adapt {
+  height: 50px;
+  widows: 50px;
+  object-fit: cover;
+  margin-left: 14px;
 }
 
-.taille_symbole{
-    height: 50px;
-    widows: 50px;
-    object-fit: cover;
+.taille_symbole {
+  height: 50px;
+  widows: 50px;
+  object-fit: cover;
 }
 
-.consigne{
-    text-align: center;
-    font-family:$sous-titre-font; 
-    font-size:$sous-titre-size;
+.consigne {
+  text-align: center;
+  font-family: $sous-titre-font;
+  font-size: $sous-titre-size;
 }
 
 .text_box{
@@ -46,10 +53,17 @@
     margin: 15px;
     line-height: 20px;
     
+.text_box {
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px;
+  font-family: $paragraphe-font;
+  font-size: $paragraphe-size;
+  margin: 15px;
 }
 
-.text_section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.text_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
