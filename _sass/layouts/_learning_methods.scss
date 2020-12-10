@@ -14,53 +14,57 @@
   }
   .bulle {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 36px;
-    padding: 11px;
+    padding: 36px 11px 0 11px;
     width: 342px;
-    height: 258px;
-    box-shadow: $box-shadow;
-    border-radius: 12px;
+    height: 268px;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
     h3 {
       position: absolute;
       top: 0;
       left: 0;
-      transform: translate(-9%,-60%);
+      transform: translate(-9%, -36%);
       padding: 10px;
-      border-radius: 12px;
+      border-radius: 8px;
       color: #ffffff;
       background-color: #05668d;
       font-size: $paragraphe-size;
       font-family: $paragraphe-font;
+      box-shadow: $box-shadow;
+    }
+
+    p {
+      font-size: $paragraphe-size;
+      font-family: $paragraphe-font;
+      line-height: 24px ;
     }
   }
   .bulle-two {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 36px;
+    padding: 36px 11px 0 11px;
     width: 342px;
-    height: 258px;
-    box-shadow: $box-shadow;
-    border-radius: 12px;
+    height: 292px;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
     h3 {
       position: absolute;
       top: 0;
       left: 0;
-      transform: translate(-9%,-42%);
+      transform: translate(-9%, -42%);
       padding: 10px;
-      border-radius: 12px;
+      border-radius: 8px;
       color: #ffffff;
       background-color: #05668d;
       font-size: $paragraphe-size;
       font-family: $paragraphe-font;
+      box-shadow: $box-shadow;
     }
-    p{
-
-        padding: 76px 11px 66px 11px;
+    p {
+      font-size: $paragraphe-size;
+      font-family: $paragraphe-font;
+      line-height: 24px;
     }
   }
 }
@@ -88,7 +92,7 @@ bold {
     flex-wrap: wrap;
     margin: 25px;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 8px;
     box-shadow: 4px 4px 4px #E8E8E8;
 }
 
@@ -101,5 +105,5 @@ bold {
     margin-left: 10px;
     padding-top: -20px;
     padding-bottom: -20px;
-    border-radius: 5px;
+    border-radius: 8x;
 } */
