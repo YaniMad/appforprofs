@@ -1,8 +1,49 @@
 .slider-tips {
+
     .slider-tips-slide {
-        padding: 30px;
+
+        
+        padding-top: 40px;
+        padding-bottom: 40px;
+
         img {
-            max-width: 100%;
+            padding-left: 20px;
+            padding-top: 15px;
+            padding-right: 20px;
+            padding-bottom: 5px;
+            max-width:100%;
+            
+            
         }
-    }
+
+        p {
+            margin-top: 10px;
+            text-align: center;
+            padding-right: 15px;
+            padding-left: 15x;
+        }
+
+
+
+
+
+
+    }     
+    
 }
+
+
+.box-blanche-slide {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 12px #555
+
+    
+
+}
+
+ 
