@@ -1,7 +1,68 @@
-.cookies {
+.cookies{
+      background-color: white;
+}
+
+.titre{
+      position: relative;
+      h3{
+            font-size: $sous-sous-titre-size;
+            font-family: $sous-sous-titre-font;
+      }
+      h2{
+            font-size: $sous-titre-size;
+            font-family: $sous-titre-font;
+      }
+      p{
+            font-size: $paragraphe-size;
+            font-family: $paragraphe-font;
+      }
+}
+
+.icone {
 height: 100px;
       object-fit: cover;
       margin-left: 70%;
-      top: 2px;
-      position: absolute
+      top: 1em;
+      right: 30px;
+      position: absolute;
+}
+
+.refuser{
+      background-color: #05668D;
+      border-radius: 15px 0px 0px 15px;
+      text-align: center;
+      p{
+            font-size: $paragraphe-size;
+            font-family: $paragraphe-font;
+            color: white;
+      }
+      padding: 10px;
+}
+
+.parametrer{
+      background-color: #05668D;
+      text-align: center;
+      p{
+            font-size: $paragraphe-size;
+            font-family: $paragraphe-font;
+            color: white;
+      }
+      padding: 10px;
+}
+
+.accepter{
+      background-color: #00B686;
+      border-radius: 0px 15px 15px 0px;
+      text-align: center;
+      p{
+            font-size: $paragraphe-size;
+            font-family: $paragraphe-font;
+            color: white;
+      }
+      padding: 10px;
+}
+
+.boutons{
+      display: flex;
+      justify-content: center;
 }

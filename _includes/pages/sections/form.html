@@ -1,20 +1,37 @@
-<div>
-    <h2>Si vous avez une astuce à partager, c'est ici !</h2>
+<div class="form">
+    <h2 class="h2fo">Si vous avez une astuce à partager, c'est ici !</h2>
 
-    <div>
-        <form action="mailto:valentinvalentinelli@gmail.com" method="post" name="contact">
-            <input type="text" id="name" name="name" placeholder="Nom">           
-            
-            <textarea id="subject" name="subject" placeholder="Écrivez quelque chose..."></textarea>
-            
-            <!-- ReCAPTCHA À FAIRE-->
+    <div class="container">
 
-            <input type="submit" value="Envoyer">
-        </form>
-    </div>
+        <form action="mailto:valentinvalentinelli@gmail.com">
 
+        <div class="row">
+          <div class="col-75">
+            <input type="text" id="name" name="firstname" placeholder="Votre nom...">
+          </div>
+        </div>
 
+        <div class="row">
+          <div class="col-75">
+            <input type="text" id="subject" name="subject" placeholder="Votre sujet...">
+          </div>
+        </div>
 
+        <div class="row">
+          <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="Écrivez quelque chose..." style="height:200px width:375px"></textarea>
+          </div>
+        </div>
+
+        <div class="row">
+          <input type="submit" value="Envoyer">
+        </div>
+        
+    </form>
+
+      </div>
+
+</div>
 
 
 

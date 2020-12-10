@@ -65,14 +65,23 @@
     }
     .tns-nav {
         position: absolute;
-        bottom: 0;
+        bottom: 50px;
+        left: 170px;
+        z-index: 3;
         button {
-            width: 30px;
-            height: 30px;
-            background: #000;
+            border-color: black;
+            border-width: 0.5px;
+            width: 14px;
+            height: 14px;
+            background: white;
             border-radius: 50%;
             &.tns-nav-active {
-                background: pink;
+                background: #00b686;
+                border-color: #00b686;
+                border-width: thin;
+                border-style: unset;
+                width: 16px;
+                height: 16px;
             }
         }
     }
@@ -90,21 +99,16 @@
     .slider-tips-slide {        
         padding-top: 40px;
         padding-bottom: 40px;
-        img {
-            padding-left: 20px;
-            padding-top: 15px;
-            padding-right: 20px;
-            padding-bottom: 5px;
-            max-width:100%;
-        }
+
 
         p {
+
+            font-size: $paragraphe-size;
+            font-family: $paragraphe-font;
             margin-top: 10px;
             text-align: center;
             padding-right: 35px;
             padding-left: 35px;
-            font-family: $paragraphe-font;
-            font-size: $paragraphe-size;
             line-height: 24px;
         }
 
