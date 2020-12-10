@@ -8,7 +8,7 @@
     background-size: cover;
 
     .logo {
-      height: 22px;
+      height: 30px;
       widows: 22px;
       object-fit: cover;
     }
@@ -38,10 +38,27 @@
       line-height: 25px;
     }
 
-    .fleche{
-      height: 30px;
+    .arrow{
+        margin-top: 5px;
+      height: 20px;
       widows: 30px;
       object-fit: cover;
+      animation-delay: 2s;
+      animation: bounceAnim 2s infinite;
+    }
+    @keyframes bounceAnim {
+        0% {
+            bottom: 14%;
+        }
+        40% {
+            bottom: 10%;
+        }
+        60% {
+            bottom: 10%;
+        }
+        100% {
+            bottom: 14%;
+        }
     }
 }
 }
