@@ -45,7 +45,42 @@
     background-color: white;
     box-shadow: $box-shadow;
     
-
 }
 
+
+.slider-comments {
+    .slider-tips-slide {
+
+        
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        img {
+            padding-left: 20px;
+            padding-top: 15px;
+            padding-right: 20px;
+            padding-bottom: 5px;
+            max-width:100%;
+            
+            
+        }
+
+        p {
+            margin-top: 10px;
+            text-align: center;
+            padding-right: 35px;
+            padding-left: 35px;
+            font-family: $paragraphe-font;
+            font-size: $paragraphe-size;
+            line-height: 24px;
+        }
+
+
+
+
+
+
+    }     
+}
  
+
