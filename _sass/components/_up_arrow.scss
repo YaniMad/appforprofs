@@ -1,9 +1,18 @@
-.button {
+.background-arrow {
+    position: fixed;
     background-color:#00b686;
-    border: none;
-    border-radius:30px;
+    border-radius: 50%;
     text-decoration : none;
     width:50px;
     height:50px;
-    position: absolute;
+    cursor: pointer;
+    transform: rotate(180deg);
+
+    .arrow-button{ 
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%), 
+
+    }
 }
