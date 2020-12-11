@@ -1,68 +1,101 @@
-.cookies{
-      background-color: white;
+.cookies-container {
+      z-index: 6;
+      position: fixed;
+      bottom: -100%;
+      left: 0;
+      right: 0;
+      background: #d8d8d8;
+      opacity: 92%;
+      padding: 0 32px;
+      box-shadow: 0 -2px 16px rgba(0, 0, 0, 0.4);
+
+      transition: 500ms;
 }
 
-.titre{
+.cookies-container.active {
+      bottom: 0;
+}
+
+
+
+.titre {
       position: relative;
       h3{
             font-size: $sous-sous-titre-size;
             font-family: $sous-sous-titre-font;
+            padding-left: 10px;
       }
+
       h2{
             font-size: $sous-titre-size;
             font-family: $sous-titre-font;
+            padding-left: 10px;
       }
+
       p{
             font-size: $paragraphe-size;
             font-family: $paragraphe-font;
+            padding-left: 10px;
       }
 }
 
 .icone {
-height: 100px;
+      height: 70px;
       object-fit: cover;
-      margin-left: 70%;
-      top: 1em;
-      right: 30px;
+      top: 2em;
+      padding-left: 287px;
       position: absolute;
 }
 
-.refuser{
+.refuser {
       background-color: #05668D;
+      border-color: #05668D;
+      border-style: unset;
       border-radius: 15px 0px 0px 15px;
       text-align: center;
-      p{
-            font-size: $paragraphe-size;
-            font-family: $paragraphe-font;
-            color: white;
-      }
-      padding: 10px;
+      padding: 7px;
+      
+      font-size: $paragraphe-size;
+      font-family: $paragraphe-font;
+      color: white;
+      
+
 }
 
-.parametrer{
+.parametrer {
       background-color: #05668D;
+      border-color: #05668D;
+      border-style: unset;
       text-align: center;
-      p{
-            font-size: $paragraphe-size;
-            font-family: $paragraphe-font;
-            color: white;
-      }
-      padding: 10px;
+      padding: 7px;
+      
+      font-size: $paragraphe-size;
+      font-family: $paragraphe-font;
+      color: white;
+      
+      
 }
 
-.accepter{
+.accepter {
       background-color: #00B686;
+      border-color: #00B686;
       border-radius: 0px 15px 15px 0px;
+      border-style: unset;
       text-align: center;
-      p{
-            font-size: $paragraphe-size;
-            font-family: $paragraphe-font;
-            color: white;
-      }
-      padding: 10px;
+      padding: 7px;
+         
+      font-size: $paragraphe-size;
+      font-family: $paragraphe-font;
+      color: white;
+
 }
 
-.boutons{
+.boutons {
+      
+      padding-top: 28px;
+      position: relative;
       display: flex;
       justify-content: center;
+      bottom: 12px;
+      left: 20px
 }
