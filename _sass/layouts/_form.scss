@@ -23,13 +23,14 @@ input[type=text], select {
 input[type=submit] {
     font-family: $paragraphe-font;
     font-size: $paragraphe-size;
-    width: 25%;
-    padding: 10px;
+    width: 150px;
+    padding: 12px;
     background-color: #00b686;
     color: white;
     border: none;
-    border-radius: 25px;
+    border-radius: 32px;
     box-shadow: $box-shadow;
+    margin-top: 10px;
     cursor: pointer;
 }
 
