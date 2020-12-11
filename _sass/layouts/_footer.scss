@@ -1,6 +1,11 @@
-.footer{
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #F0F0F0;
-    text-align: center;
+    height: 88px;
     font-size: $paragraphe-size;
     font-family: $paragraphe-font;
+
+
 }

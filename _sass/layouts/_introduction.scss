@@ -21,10 +21,10 @@
       height: 300px;
       width: 300px;
     }
-}
+  }
 
   .introduction-contenu {
-    padding: 15px 39px 23px 39px;
+    padding: 15px 39px 13px 39px;
     h1 {
       text-align: center;
       font-size: $titre-size;
@@ -37,18 +37,31 @@
       font-family: $paragraphe-font;
       line-height: 25px;
     }
+  }
+
+  .swipe-up {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
 
     .arrow {
-        margin-top: 680px;
-        margin-right: 400px;
-        height: 25px;
-        animation: bounce 1.75s ease infinite alternate;
-        position: absolute; 
-}
+      width: 25px;
+      height: 19px;
+      animation: moove 1s ease infinite;
+    }
 
-@keyframes bounce{
-  from {top: 20px;}
-  to   {top: 30px;}
-}
-}
+    @keyframes moove {
+      0%{
+        transform: translateY(-20%);
+      }
+      50% {
+        transform: translateY(20%);
+      }
+      100% {
+        transform: translateY(-20%);
+      }
+    }
+  }
 }

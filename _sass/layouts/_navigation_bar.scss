@@ -1,6 +1,9 @@
 .navigation {
+  z-index: 999;
   position: sticky;
+  top: 0;
   background-color: #dcdcdc;
+  box-shadow: $box-shadow;
 
   .navigation-fake{ 
     display: flex;

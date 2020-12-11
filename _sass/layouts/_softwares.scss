@@ -75,6 +75,7 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -44%);
+      box-shadow: $box-shadow;
 
       .logo-pop-up {
         height: 41px;
@@ -82,7 +83,7 @@
         margin-bottom: 15px;
       }
       .pop-up-contenu {
-        margin-top: 32px;
+        margin-top: 12px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -112,6 +113,7 @@
           display: flex;
           align-items: center;
           height: 45px;
+          line-height: 18px;
           .pop-up-icon {
             height: 25px;
             width: 25px;
@@ -128,23 +130,94 @@
           align-items: center;
           justify-content: space-around;
           width: 100%;
-          margin-top: 12px;
+          margin-top: 22px;
           .download-icon {
             height: 42px;
             width: 119px;
           }
         }
       }
-      .pop-up-exit{ 
-      /*   position: absolute; */
+      .pop-up-exit {
+        position: relative;
         width: 34px;
         height: 39px;
         background-color: $bouton-plus;
         border-radius: 10px;
         margin-left: 300px;
         margin-top: 10px;
-        
+        box-shadow: $box-shadow;
+        .croix {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          height: 16px;
+          width: 16px;
+        }
       }
+      .pop-up-paragraphe-meet {
+        text-align: center;
+        font-size: $paragraphe-size;
+        font-family: $sous-sous-titre-font;
+        line-height: 24px;
+        height: 72px;
+        width: 304px;
+      }
+
+      .pop-up-paragraphe-zoom {
+        text-align: center;
+        font-size: $paragraphe-size;
+        font-family: $sous-sous-titre-font;
+        line-height: 24px;
+        margin-bottom: 14px;
+        height: 72px;
+        width: 304px;
+      }
+      .liste-meet {
+        display: flex;
+        align-items: center;
+        margin-bottom: 8px;
+      }
+      .liste-zoom {
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+      }
+      .liste-kahoot {
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+        line-height: 18px;
+      }
+      .download-kahoot {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 11px;
+        .download-icon {
+          height: 42px;
+          width: 119px;
+        }
+      }
+    }
+    .display-discord {
+      display: none;
+    }
+    .display-classroom {
+      display: none;
+    }
+    .display-meet {
+      display: none;
+    }
+    .display-zoom {
+      display: none;
+    }
+    .display-microsoft-teams {
+      display: none;
+    }
+    .display-kahoot {
+      display: none; 
     }
   }
 }

@@ -1,7 +1,10 @@
 <section class="softwares">
   <h2><b>Quelques logiciels pour vous aider</b></h2>
+   <!-- Création des boutons entre le bouton Discord et le bouton google classroom 
+   il y a tout le code pour les fenêtres pop-up -->
   <div class="container-btn">
-      <button class="btn">
+    <!-- Creation du bouton Discord -->
+      <button class="btn" id="btn">
         <img
           class="logo"
           src="assets/iconographie/quelques_logiciels/logiciels_logo/discord.svg"
@@ -15,9 +18,13 @@
             alt="bouton permettant d'ouvrir le pop up"
           />
       </button>
-      <div class="pop-up">
+      
+      <!-- Création des pop-up -->
+
+      <!-- Création du pop up de Discord -->
+      <div class="pop-up display-discord">
         <div class="pop-up-exit">
-          <img src="">
+          <img class="croix" src="assets/iconographie/quelques_logiciels/+ des pop up.svg">
         </div>
         <div class="pop-up-contenu">
 
@@ -38,20 +45,156 @@
           <li><img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/croix_pop_up.svg" alt="Une croix rouge qui indique les points négatif"><p>Difficulté à gérer un serveur pour les débutants</p></li>
         </ul>
         <div class="download">
-          <img class="download-icon" src="assets/iconographie/quelques_logiciels/app_store.png" alt="Logo de app store">
-          <img class="download-icon" src="assets/iconographie/quelques_logiciels/android_app.png" alt="Logo de app store">
+          <a href="https://apps.apple.com/fr/app/discord-parler-et-trainer/id985746746" target="_blank"><img class="download-icon" src="assets/iconographie/quelques_logiciels/app_store.png" alt="Logo de app store"></a>
+          <a href="https://play.google.com/store/apps/details?id=com.discord&hl=fr&gl=US" target="_blank"><img class="download-icon" src="assets/iconographie/quelques_logiciels/android_app.png" alt="Logo de app store"></a>
         </div>
       </div>
       </div>
-        <!--   <img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/checked_pop_up.svg"><p>Réunit discussion, visios et partage de documents</p>
-          <img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/checked_pop_up.svg"><p>Permet d'avoir différents salons de discussion en un seul serveur</p>
-          <img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/croix_pop_up.svg"><p>Pas très intuitif</p>
-          <img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/croix_pop_up.svg"><p>Difficulté à gérer un serveur pour les débutants</p>
-           -->
-<!--         </div>   -->
-        
-     
-      <button class="btn">
+      <!-- Création du pop up Google Classroom -->
+      <div class="pop-up display-classroom">
+        <div class="pop-up-exit">
+          <img class="croix" src="assets/iconographie/quelques_logiciels/+ des pop up.svg">
+        </div>
+        <div class="pop-up-contenu">
+
+          <img
+          class="logo-pop-up"
+          src="assets/iconographie/quelques_logiciels/logiciels_logo/classroom.svg"
+          alt="logo du logiciel google classroom"
+        />
+        <h3>Google Classroom</h3>
+        <p class="pop-up-paragraphe">Google Classroom est une plateforme entièremeent dédiée aux cours, quipermet de simplifier la création et la diffusion des cours.</p>
+      </div>
+        <div class="list-review">
+        <ul>
+          <li><img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/checked_pop_up.svg" alt="Un check vert qui indique que les points sont positif"><p>Gratuit</p></li>
+          <li><img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/checked_pop_up.svg" alt="Un check vert qui indique que les points sont positif"><p>Permet de regrouper et planifier tous<br> les cours et devoirs au même endroit</p></li>
+          <li><img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/checked_pop_up.svg" alt="Un check vert qui indique que les points sont positif"><p>Permet d'avertir en direct les<br> élèves des actualités par mail</p></li>
+          <li><img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/croix_pop_up.svg" alt="Une croix rouge qui indique les points négatif"><p>Manque d'interaction</p></li>
+          <li><img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/croix_pop_up.svg" alt="Une croix rouge qui indique les points négatif"><p>Nécéssité d'être complété par des cours en visioconférence pour être un outil complet</p></li>
+        </ul>
+        <div class="download">
+          <a href="https://apps.apple.com/fr/app/google-meet/id1013231476" target="_blank"><img class="download-icon" src="assets/iconographie/quelques_logiciels/app_store.png" alt="Logo de app store"></a>
+          <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.classroom&hl=fr&gl=US" target="_blank"><img class="download-icon" src="assets/iconographie/quelques_logiciels/android_app.png" alt="Logo de app store"></a>
+        </div>
+      </div>
+      </div>
+      <!-- Création du pop up Google Meet -->
+      <div class="pop-up display-meet">
+        <div class="pop-up-exit">
+          <img class="croix" src="assets/iconographie/quelques_logiciels/+ des pop up.svg">
+        </div>
+        <div class="pop-up-contenu">
+
+          <img
+          class="logo-pop-up"
+          src="assets/iconographie/quelques_logiciels/logiciels_logo/meet.svg"
+          alt="logo du logiciel google meet"
+        />
+        <h3>Google Meet</h3>
+        <p class="pop-up-paragraphe-meet">Google Meet est une plateforme de vidéoconférence développée par google.</p>
+      </div>
+        <div class="list-review">
+        <ul>
+          <li class="liste-meet"><img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/checked_pop_up.svg" alt="Un check vert qui indique que les points sont positif"><p>Gratuit</p></li>
+          <li class="liste-meet"><img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/checked_pop_up.svg" alt="Un check vert qui indique que les points sont positif"><p>Lien direct avec Google Classroom</p></li>
+          <li class="liste-meet"><img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/checked_pop_up.svg" alt="Un check vert qui indique que les points sont positif"><p>Permet de faire des visioconférences, avec la possibilité de présenter des diaporamas et d'avoir un chat</p></li>
+          <li class="liste-meet"><img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/croix_pop_up.svg" alt="Une croix rouge qui indique les points négatif"><p>Quelques problèmes de stabilité au niveau de la vidéo et du son</p></li>
+          <li class="liste-meet"><img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/croix_pop_up.svg" alt="Une croix rouge qui indique les points négatif"><p>Nécessite une bonne connexion<br> internet</p></li>
+        </ul>
+        <div class="download">
+          <a href="https://apps.apple.com/fr/app/google-meet/id1013231476" target="_blank"><img class="download-icon" src="assets/iconographie/quelques_logiciels/app_store.png" alt="Logo de app store"></a>
+          <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.meetings&hl=fr&gl=US" target="_blank"><img class="download-icon" src="assets/iconographie/quelques_logiciels/android_app.png" alt="Logo de app store"></a>
+        </div>
+      </div>
+      </div>
+      <!-- Création du pop up Zoom -->
+      <div class="pop-up display-zoom">
+        <div class="pop-up-exit">
+          <img class="croix" src="assets/iconographie/quelques_logiciels/+ des pop up.svg">
+        </div>
+        <div class="pop-up-contenu">
+
+          <img
+          class="logo-pop-up"
+          src="assets/iconographie/quelques_logiciels/logiciels_logo/zoom.svg"
+          alt="logo du logiciel zoom"
+        />
+        <h3>Zoom</h3>
+        <p class="pop-up-paragraphe-zoom">zoom est une application complète de vidéoconférence. C'est une référence dans son domaine</p>
+      </div>
+        <div class="list-review">
+        <ul>
+          <li class="liste-zoom"><img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/checked_pop_up.svg" alt="Un check vert qui indique que les points sont positif"><p>Gratuit</p></li>
+          <li class="liste-zoom"><img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/checked_pop_up.svg" alt="Un check vert qui indique que les points sont positif"><p>Très facile d'utilisation</p></li>
+          <li class="liste-zoom"><img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/checked_pop_up.svg" alt="Un check vert qui indique que les points sont positif"><p>Permet de faire des vidéoconférences<br> de façon très complète, grâce à ses nombreuses options</p></li>
+          <li class="liste-zoom"><img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/croix_pop_up.svg" alt="Une croix rouge qui indique les points négatif"><p>Des problèmes et des failles de<br> sécurité dans le passé, qui ont nuit<br> à l'image de l'application</p></li>
+        </ul>
+        <div class="download">
+          <a href="https://apps.apple.com/fr/app/zoom-cloud-meetings/id546505307" target="_blank"><img class="download-icon" src="assets/iconographie/quelques_logiciels/app_store.png" alt="Logo de app store"></a>
+          <a href="https://play.google.com/store/apps/details?id=us.zoom.videomeetings&hl=fr" target="_blank"><img class="download-icon" src="assets/iconographie/quelques_logiciels/android_app.png" alt="Logo de app store"></a>
+        </div>
+      </div>
+      </div>
+      <!-- Création du pop up Microsoft Teams -->
+      <div class="pop-up display-microsoft-teams">
+        <div class="pop-up-exit">
+          <img class="croix" src="assets/iconographie/quelques_logiciels/+ des pop up.svg">
+        </div>
+        <div class="pop-up-contenu">
+
+          <img
+          class="logo-pop-up"
+          src="assets/iconographie/quelques_logiciels/logiciels_logo/teams.svg"
+          alt="logo du logiciel microsoft teams"
+        />
+        <h3>Microsoft Teams</h3>
+        <p class="pop-up-paragraphe-zoom">Microsoft Teams est une plateforme de travail collaboratif qui permet de tout regrouper en une application</p>
+      </div>
+        <div class="list-review">
+        <ul>
+          <li><img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/checked_pop_up.svg" alt="Un check vert qui indique que les points sont positif"><p>Gratuit et intégré aux services<br> Microsoft 365</p></li>
+          <li><img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/checked_pop_up.svg" alt="Un check vert qui indique que les points sont positif"><p>Très complet et personnalisable</p></li>
+          <li><img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/checked_pop_up.svg" alt="Un check vert qui indique que les points sont positif"><p>Très facile d'utilisation</p></li>
+          <li><img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/croix_pop_up.svg" alt="Une croix rouge qui indique les points négatif"><p>Interconnexions difficiles avec les services concurrents de Microsoft</p></li>
+          <li><img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/croix_pop_up.svg" alt="Une croix rouge qui indique les points négatif"><p>Certaine fonctionnalité sont<br> seulement en anglais</p></li>
+        </ul>
+        <div class="download">
+          <a href="https://apps.apple.com/fr/app/microsoft-teams/id1113153706" target="_blank"><img class="download-icon" src="assets/iconographie/quelques_logiciels/app_store.png" alt="Logo de app store"></a>
+          <a href="https://play.google.com/store/apps/details?id=com.microsoft.teams&hl=fr&gl=US" target="_blank"><img class="download-icon" src="assets/iconographie/quelques_logiciels/android_app.png" alt="Logo de app store"></a>
+        </div>
+      </div>
+      </div>
+      <!-- Création du pop up Kahoot! -->
+      <div class="pop-up display-kahoot">
+        <div class="pop-up-exit">
+          <img class="croix" src="assets/iconographie/quelques_logiciels/+ des pop up.svg">
+        </div>
+        <div class="pop-up-contenu">
+
+          <img
+          class="logo-pop-up"
+          src="assets/iconographie/quelques_logiciels/logiciels_logo/kahoot.svg"
+          alt="logo du logiciel microsoft teams"
+        />
+        <h3>Kahoot!</h3>
+        <p class="pop-up-paragraphe">Kahoot! est une plateforme d'apprentissage ludique sous forme de quizz en ligne.</p>
+      </div>
+        <div class="list-review">
+        <ul>
+          <li class="liste-kahoot"><img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/checked_pop_up.svg" alt="Un check vert qui indique que les points sont positif"><p>Gratuit</p></li>
+          <li class="liste-kahoot"><img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/checked_pop_up.svg" alt="Un check vert qui indique que les points sont positif"><p>Permet de créer facilement des test interactifs et dynamiques sur le cours</p></li>
+          <li class="liste-kahoot"><img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/checked_pop_up.svg" alt="Un check vert qui indique que les points sont positif"><p>Permet de tous participer simultanément à un quizz</p></li>
+          <li class="liste-kahoot"><img class="pop-up-icon" src="assets/iconographie/quelques_logiciels/croix_pop_up.svg" alt="Une croix rouge qui indique les points négatif"><p>Sans une bonne connexion internet,<br> la dynamique peut vite être mise en<br> péril</p></li>
+        </ul>
+        <div class="download-kahoot">
+          <a href="https://apps.apple.com/fr/app/kahoot-play-create-quizzes/id1131203560" target="_blank"><img class="download-icon" src="assets/iconographie/quelques_logiciels/app_store.png" alt="Logo de app store"></a>
+          <a href="https://play.google.com/store/apps/details?id=no.mobitroll.kahoot.android&hl=fr&gl=US" target="_blank"><img class="download-icon" src="assets/iconographie/quelques_logiciels/android_app.png" alt="Logo de app store"></a>
+        </div>
+      </div>
+      </div>
+     <!-- Création du bouton de Google Classroom -->
+      <button class="btn" id="btn">
         <img
           class="logo"
           src="assets/iconographie/quelques_logiciels/logiciels_logo/classroom.svg"
@@ -65,7 +208,8 @@
             alt="bouton permettant d'ouvrir le pop up"
           />
       </button>
-      <button class="btn">
+      <!-- Creation du bouton Google meet -->
+      <button class="btn" id="btn">
         <img
           class="logo"
           src="assets/iconographie/quelques_logiciels/logiciels_logo/meet.svg"
@@ -79,7 +223,8 @@
             alt="bouton permettant d'ouvrir le pop up"
           />
       </button>
-      <button class="btn">
+      <!-- Création du bouton Zoom -->
+      <button class="btn" id="btn">
         <img
           class="logo"
           src="assets/iconographie/quelques_logiciels/logiciels_logo/zoom.svg"
@@ -93,7 +238,8 @@
             alt="bouton permettant d'ouvrir le pop up"
           />
       </button>
-      <button class="btn">
+      <!-- Création du bouton Microsoft Teams -->
+      <button class="btn" id="btn">
         <img
           class="logo"
           src="assets/iconographie/quelques_logiciels/logiciels_logo/teams.svg"
@@ -107,7 +253,8 @@
             alt="bouton permettant d'ouvrir le pop up"
           />
       </button>
-      <button class="btn">
+      <!-- Création du bouton Kahoot! -->
+      <button class="btn" id="btn">
         <img
           class="logo"
           src="assets/iconographie/quelques_logiciels/logiciels_logo/kahoot.svg"
