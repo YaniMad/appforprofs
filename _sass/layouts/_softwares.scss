@@ -139,13 +139,15 @@
       }
       .pop-up-exit {
         position: relative;
+        transform: rotate(-45deg);
         width: 34px;
-        height: 39px;
+        height: 34px;
         background-color: $bouton-plus;
-        border-radius: 10px;
+        border-radius: 50%;
         margin-left: 300px;
         margin-top: 10px;
         box-shadow: $box-shadow;
+        cursor: pointer;
         .croix {
           position: absolute;
           top: 50%;
@@ -153,6 +155,7 @@
           transform: translate(-50%, -50%);
           height: 16px;
           width: 16px;
+          cursor: pointer;
         }
       }
       .pop-up-paragraphe-meet {
