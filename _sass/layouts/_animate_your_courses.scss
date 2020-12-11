@@ -1,7 +1,12 @@
 .animer {
   background-color: #e8e8e8;
 
-
+  h2 {
+    text-align: center;
+    font-size: $sous-titre-size;
+    font-family: $titre-font;
+    padding: 30px;
+  }
 .avant_section {
   padding-right: 20px;
   padding-left: 20px;
@@ -9,12 +14,7 @@
   font-size: $paragraphe-size;
   font-family: $paragraphe-font;
   line-height: 24px;
-  h2 {
-    text-align: center;
-    font-size: $sous-titre-size;
-    font-family: $titre-font;
-    padding: 30px;
-  }
+
 }
 
 
@@ -27,6 +27,8 @@
   margin-right: 190px;
   margin-left: 10px;
   border-radius: 5px;
+  font-size: $paragraphe-size;
+  font-family: $sous-sous-titre-font;
 }
 
 .titre_color {
