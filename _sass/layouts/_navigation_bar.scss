@@ -5,7 +5,7 @@
   background-color: #dcdcdc;
   box-shadow: $box-shadow;
 
-  .navigation-fake { 
+  .navigation-fake {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -13,8 +13,7 @@
     background-color: #dcdcdc;
 
     .navigation-decoration {
-
-     position: absolute;
+      position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -24,34 +23,30 @@
     }
     .navigation_icon {
       position: relative;
-      z-index: 999; 
+      z-index: 999;
       height: 26px;
       width: 26px;
+      transform: scale(0.8);
       opacity: 15%;
       object-fit: cover;
-        &.is-active {
+      transition: transform 0.6s ease;
+      &.is-active {
+        transform: scale(1);
         height: 39px;
         width: 39px;
         opacity: 100%;
-               
       }
     }
-    .icon-background{ 
-        z-index: 998;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #FFFFFF;
-        height: 37px;
-        width: 37px;
-        border-radius: 50%;
-        box-shadow: $box-shadow;
-          
+    .icon-background {
+      z-index: 998;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff;
+      height: 37px;
+      width: 37px;
+      border-radius: 50%;
+      box-shadow: $box-shadow;
     }
   }
-  
-  
-    
-    
-  
 }
